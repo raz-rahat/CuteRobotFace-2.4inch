@@ -7,15 +7,21 @@
    MPU6500 / MPU6050 FAMILY
 
    TFT:
-   SCK      GPIO 13
-   MISO     GPIO 12
-   MOSI     GPIO 11
+   VCC      3.3V
+   GND      GND
    CS       GPIO 10
-   DC       GPIO 9
    RST      GPIO 8
-   LED      GPIO 5
-   TOUCH_CS GPIO 7
-
+   DC       GPIO 9
+   MOSI     GPIO 11
+   SCK      GPIO 13
+   LED      3.3V
+   MISO     GPIO 12
+   TOUCH:
+   TCLK     GPIO 13
+   T_CS     GPIO 7
+   T_DIN    GPIO 11
+   T_DO     GPIO 12
+   T_IRQ    GPIO 6
    MPU:
    SDA      GPIO 16
    SCL      GPIO 15
